@@ -241,7 +241,7 @@ class PresentationController {
       def docPath = presentationPath + '/documentData.txt'
       
       def docFiile = new File(docPath)
-      def s3Prefix = "http://lessonslidesmyngle.s3.amazonaws.com/$rm/Preloaded/Preloaded/$presentationName"
+      def s3Prefix = "http://lessonslidesmyngle.s3.amazonaws.com/$rm/Preloaded/$presentationName"
 
     
       if (docFiile.exists()) {

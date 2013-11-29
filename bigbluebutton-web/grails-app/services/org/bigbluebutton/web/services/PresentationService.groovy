@@ -169,7 +169,7 @@ class PresentationService {
 	
 	def roomDirectory = {conf, room ->
 		//return new File(presentationDir + File.separatorChar + conf + File.separatorChar + room)
-		return new File("/usr/local/dimdim/Mediaserver/www/archive/slidedeck/$room/Preloaded/Preloaded")
+		return new File("/usr/local/dimdim/Mediaserver/www/archive/slidedeck/$room/Preloaded")
 	}
 
 	def testConversionProcess() {
